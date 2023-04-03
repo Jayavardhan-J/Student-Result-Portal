@@ -57,10 +57,10 @@ public class allStudentResult extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
+        jPanel1.setBackground(new java.awt.Color(14, 162, 147));
 
-        addStudent.setBackground(new java.awt.Color(51, 51, 255));
-        addStudent.setForeground(new java.awt.Color(255, 255, 255));
+        addStudent.setBackground(new java.awt.Color(0, 66, 90));
+        addStudent.setForeground(new java.awt.Color(102, 204, 255));
         addStudent.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\student_add.png")); // NOI18N
         addStudent.setText(" Add new student");
         addStudent.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -70,8 +70,8 @@ public class allStudentResult extends javax.swing.JFrame {
             }
         });
 
-        insertResult.setBackground(new java.awt.Color(51, 51, 255));
-        insertResult.setForeground(new java.awt.Color(255, 255, 255));
+        insertResult.setBackground(new java.awt.Color(0, 66, 90));
+        insertResult.setForeground(new java.awt.Color(102, 204, 255));
         insertResult.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\add_result.png")); // NOI18N
         insertResult.setText(" Insert New Result");
         insertResult.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -81,8 +81,8 @@ public class allStudentResult extends javax.swing.JFrame {
             }
         });
 
-        registerStudent.setBackground(new java.awt.Color(51, 51, 255));
-        registerStudent.setForeground(new java.awt.Color(255, 255, 255));
+        registerStudent.setBackground(new java.awt.Color(0, 66, 90));
+        registerStudent.setForeground(new java.awt.Color(102, 204, 255));
         registerStudent.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\registered.png")); // NOI18N
         registerStudent.setText(" Registered Students");
         registerStudent.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -92,7 +92,7 @@ public class allStudentResult extends javax.swing.JFrame {
             }
         });
 
-        allStudentResult.setBackground(new java.awt.Color(255, 255, 51));
+        allStudentResult.setBackground(new java.awt.Color(204, 255, 255));
         allStudentResult.setForeground(new java.awt.Color(0, 0, 0));
         allStudentResult.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\rankings.png")); // NOI18N
         allStudentResult.setText(" All Student Result");
@@ -118,18 +118,14 @@ public class allStudentResult extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(15, 15, 15)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(logOut, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(9, 9, 9)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(addStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(insertResult, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(registerStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(allStudentResult, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 13, Short.MAX_VALUE)))
-                .addContainerGap())
+                    .addComponent(addStudent, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(insertResult, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(registerStudent, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(allStudentResult, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -149,7 +145,7 @@ public class allStudentResult extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 500));
 
-        jPanel2.setBackground(new java.awt.Color(119, 151, 255));
+        jPanel2.setBackground(new java.awt.Color(64, 81, 78));
 
         resultTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -179,7 +175,7 @@ public class allStudentResult extends javax.swing.JFrame {
         }
 
         jLabel1.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(102, 204, 255));
         jLabel1.setText("All Student Results");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

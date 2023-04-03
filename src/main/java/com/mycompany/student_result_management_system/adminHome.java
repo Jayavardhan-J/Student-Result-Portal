@@ -45,18 +45,18 @@ public class adminHome extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(700, 500));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(119, 151, 255));
+        jPanel1.setBackground(new java.awt.Color(14, 162, 147));
         jPanel1.setForeground(new java.awt.Color(153, 153, 255));
 
         jLabel1.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel1.setForeground(new java.awt.Color(47, 15, 93));
         jLabel1.setText("Username: ");
 
         jLabel2.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel2.setForeground(new java.awt.Color(47, 15, 93));
         jLabel2.setText("Password:");
 
-        jTextField1.setBackground(new java.awt.Color(102, 102, 255));
+        jTextField1.setBackground(new java.awt.Color(39, 225, 193));
         jTextField1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -65,7 +65,7 @@ public class adminHome extends javax.swing.JFrame {
             }
         });
 
-        jPasswordField1.setBackground(new java.awt.Color(102, 102, 255));
+        jPasswordField1.setBackground(new java.awt.Color(39, 225, 193));
         jPasswordField1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +74,7 @@ public class adminHome extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(0, 204, 0));
+        jButton1.setBackground(new java.awt.Color(0, 153, 0));
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\login.png")); // NOI18N
         jButton1.setText(" Login");
@@ -84,7 +84,8 @@ public class adminHome extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(255, 0, 51));
+        jButton2.setBackground(new java.awt.Color(204, 0, 51));
+        jButton2.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\undo.png")); // NOI18N
         jButton2.setText("  Back");
@@ -95,7 +96,7 @@ public class adminHome extends javax.swing.JFrame {
         });
 
         jLabel3.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel3.setForeground(new java.awt.Color(47, 15, 93));
         jLabel3.setText("Admin Login");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -115,21 +116,21 @@ public class adminHome extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(242, 242, 242)
-                        .addComponent(jLabel3))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(166, 166, 166)
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(81, 81, 81)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(263, 263, 263)
+                        .addComponent(jLabel3)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(76, 76, 76)
+                .addGap(80, 80, 80)
                 .addComponent(jLabel3)
-                .addGap(84, 84, 84)
+                .addGap(80, 80, 80)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -141,7 +142,7 @@ public class adminHome extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(127, Short.MAX_VALUE))
+                .addContainerGap(126, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

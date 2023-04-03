@@ -57,26 +57,26 @@ public class index extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(119, 151, 255));
+        jPanel2.setBackground(new java.awt.Color(64, 81, 78));
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel2.setForeground(new java.awt.Color(102, 204, 255));
         jLabel2.setText("Branch Name");
 
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel3.setForeground(new java.awt.Color(102, 204, 255));
         jLabel3.setText("Roll No");
 
         jLabel4.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel4.setForeground(new java.awt.Color(102, 204, 255));
         jLabel4.setText("Name");
 
         jLabel5.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel5.setForeground(new java.awt.Color(102, 204, 255));
         jLabel5.setText("Gender");
 
         jLabel6.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel6.setForeground(new java.awt.Color(102, 204, 255));
         jLabel6.setText("Father's Name");
 
         BranchDropDown.setBackground(new java.awt.Color(255, 255, 255));
@@ -97,7 +97,7 @@ public class index extends javax.swing.JFrame {
             }
         });
 
-        addStudentBtn.setBackground(new java.awt.Color(0, 204, 0));
+        addStudentBtn.setBackground(new java.awt.Color(0, 153, 0));
         addStudentBtn.setForeground(new java.awt.Color(0, 0, 0));
         addStudentBtn.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\add_btn.png")); // NOI18N
         addStudentBtn.setText(" add");
@@ -130,7 +130,7 @@ public class index extends javax.swing.JFrame {
         fNameField.setText("Enter Father's Name");
 
         jLabel7.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel7.setForeground(new java.awt.Color(102, 204, 255));
         jLabel7.setText("Add Student Details");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -195,9 +195,9 @@ public class index extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, 490, 500));
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
+        jPanel1.setBackground(new java.awt.Color(14, 162, 147));
 
-        addStudent.setBackground(new java.awt.Color(255, 255, 51));
+        addStudent.setBackground(new java.awt.Color(204, 255, 255));
         addStudent.setForeground(new java.awt.Color(0, 0, 0));
         addStudent.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\student_add.png")); // NOI18N
         addStudent.setText(" Add new student");
@@ -208,8 +208,8 @@ public class index extends javax.swing.JFrame {
             }
         });
 
-        insertResult.setBackground(new java.awt.Color(51, 51, 255));
-        insertResult.setForeground(new java.awt.Color(255, 255, 255));
+        insertResult.setBackground(new java.awt.Color(0, 66, 90));
+        insertResult.setForeground(new java.awt.Color(102, 204, 255));
         insertResult.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\add_result.png")); // NOI18N
         insertResult.setText(" Insert New Result");
         insertResult.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -219,8 +219,8 @@ public class index extends javax.swing.JFrame {
             }
         });
 
-        registerStudent.setBackground(new java.awt.Color(51, 51, 255));
-        registerStudent.setForeground(new java.awt.Color(255, 255, 255));
+        registerStudent.setBackground(new java.awt.Color(0, 66, 90));
+        registerStudent.setForeground(new java.awt.Color(102, 204, 255));
         registerStudent.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\registered.png")); // NOI18N
         registerStudent.setText(" Registered Students");
         registerStudent.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -230,8 +230,8 @@ public class index extends javax.swing.JFrame {
             }
         });
 
-        allStudentResult.setBackground(new java.awt.Color(51, 51, 255));
-        allStudentResult.setForeground(new java.awt.Color(255, 255, 255));
+        allStudentResult.setBackground(new java.awt.Color(0, 66, 90));
+        allStudentResult.setForeground(new java.awt.Color(102, 204, 255));
         allStudentResult.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\rankings.png")); // NOI18N
         allStudentResult.setText(" All Student Result");
         allStudentResult.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -241,7 +241,7 @@ public class index extends javax.swing.JFrame {
             }
         });
 
-        logOut.setBackground(new java.awt.Color(255, 0, 51));
+        logOut.setBackground(new java.awt.Color(204, 0, 51));
         logOut.setForeground(new java.awt.Color(255, 255, 255));
         logOut.setIcon(new javax.swing.ImageIcon("D:\\Java project\\NetBeans\\Student_result_management_system\\Assets\\logout.png")); // NOI18N
         logOut.setText(" Log Out");
@@ -256,18 +256,14 @@ public class index extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(logOut, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(9, 9, 9)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(addStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(insertResult, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(registerStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(allStudentResult, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 13, Short.MAX_VALUE)))
-                .addContainerGap())
+                .addGap(15, 15, 15)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(addStudent, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(insertResult, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(registerStudent, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(allStudentResult, javax.swing.GroupLayout.DEFAULT_SIZE, 176, Short.MAX_VALUE)
+                    .addComponent(logOut, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
